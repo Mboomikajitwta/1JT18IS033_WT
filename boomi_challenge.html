@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="boomika_challenge3.css">
+    <title>Text Shrink</title>
+</head>
+<body>
+    <header>
+        <a href="https://jyothyit.ac.in/"><button> Home </button></a>
+        <a href="https://www.collegedekho.com/colleges/jyothy-institute-of-technology"><button> Place </button></a>
+        <a href="https://jyothyit.ac.in/"><button> Gallery </button></a>
+        <a href="https://jyothyit.ac.in/"><button> About </button></a>
+   
+        <h1>Jyothy Institute of Technology</h1>
+    </header>
+    <figure>
+        <img src="jyothy.jpg" alt="jyothy" style="width: 30%;">
+        <figcaption><b> by M BOOMIKA </b></figcaption>
+    </figure>
+    <p>
+        Jyothy Institute of Technology under the governance of Jyothy Charitable Trust which is headquartered at Bengaluru mainly focuses on delivering quality education that equips students for life and career. We offer Undergraduate, Postgraduate and Research Programmes in various disciplines. Focused teaching facilities coupled with practical and forward-thinking programmes lend a hand to students throughout their academic period. A significant amount of emphasis is given for extracurricular activities through various clubs, technical chapters, sports, and cultural activities.
+    </p>
+    <time>Year : 2019 </br> Date : 6th October </time>
+    <div>
+        <h3> Reviews </h3>
+        <p><strong> We missed it!
+        </strong> <br> Charan
+        <img src="star-orange.jpeg" style="width: 1%;">
+            <img src="star-orange.jpeg" style="width: 1%;">
+                <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                    <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                        <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+        </p>
+        <p> <small> It was a really good one</small></p>
+
+    </div>
+    <hr>
+    <div>
+        <p><strong> Love nature
+        </strong> <br> Jayachandran
+        <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+            <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                    <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                        <img src="C:\Users\Boomika\Desktop\New folder\star-white.jpeg" style="width: 1%;">
+        </p>
+        <p> <small> The college atmosphere is too good </small></p>
+
+    </div>
+    <hr>
+    <div>
+        <p><strong> Nice
+        </strong> <br> sharath
+        <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+            <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                    <img src="C:\Users\Boomika\Desktop\New folder\star-white.jpeg" style="width: 1%;">
+                        <img src="C:\Users\Boomika\Desktop\New folder\star-white.jpeg" style="width: 1%;">
+        </p>
+        <p> <small> the college has a very good cantene</small></p>
+        <hr>
+        <div>
+        <p><strong> Amazing
+        </strong> <br> janaki
+        <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+            <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                    <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+                        <img src="C:\Users\Boomika\Desktop\New folder\star-orange.jpeg" style="width: 1%;">
+        </p>
+        <p> <small> Had a splendid college tour!!</small></p>
+    </div>
+    <hr>
+    
+        <a href="https://jyothyit.ac.in/"><button> Home </button></a>
+        <a href="https://www.collegedekho.com/colleges/jyothy-institute-of-technology"><button> Place </button></a>
+        <a href="https://jyothyit.ac.in/"><button> Gallery </button></a>
+        <a href="https://jyothyit.ac.in/"><button> About </button></a> 
+    <footer>
+        Copyright &copy; 2020 My Story
+    </footer>
+
+
+   
+<d id="demo"></d>
+<script>
+var var1 = setInterval(inTimer, 500);
+var fs = 5; //font size
+var ids = document.getElementById("demo");
+function inTimer()
+{
+ids.innerHTML = 'JYOTHY INSTITUTE';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+fs += 5;
+if (fs >= 50)
+{
+clearInterval(var1); //paused
+var2 = setInterval(deTimer, 500);
+
+}
+}
+function deTimer() //fs = 50px
+{
+fs -= 5;
+ids.innerHTML = 'OF TECHNOLOGY';
+ids.setAttribute('style', "font-size: " + fs + "px; color: blue");
+if (fs == 5)
+{
+clearInterval(var2); //paused
+var1 = setInterval(inTimer, 500);
+}
+}
+</script>
+</body>
+</html>
