@@ -16,9 +16,6 @@ $hits[0]++;
 $file = fopen($name,"w");
 fprintf($file,"%d",$hits[0]);
 fclose($file);
-
-Chinmye K N
-1JT18IS018
 print "Total number of views: ".$hits[0];
 ?>
 </body>
